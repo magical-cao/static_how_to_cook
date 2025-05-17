@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Category</title>
+</head>
+
+<body>
+  <h1 id="category-name"></h1>
+  <ul id="dish-list"></ul>
+
+  <script>
+    const category = new URLSearchParams(window.location.search).get('cat');
+    const categoryMap = {
+      aquatic: "水产类",
+      breakfast: "早餐",
+      condiment: "调味料",
+      dessert: "甜品",
+      drink: "饮品",
+      meat_dish: "荤菜",
+      "semi-finished": "半成品",
+      soup: "汤类",
+      staple: "主食",
+      template: "模板",
+      vegetable_dish: "素菜"
+    };
+
+    // 用映射表查找中文名称，如果没找到则显示 "未知分类"
+    const categoryName = categoryMap[category] || "未知分类";
+    document.getElementById('category-name').textContent = categoryName || 'No category';
+
+    // 动态从 JSON 文件加载菜品数据
+    fetch('./dishes.json')
+      .then(response => {
+        if (!response.ok) throw new Error('Failed to load dishes.json');
+        return response.json();
+      })
+      .then(dishesByCategory => {
+        const dishes = dishesByCategory[category] || [];
+        const ul = document.getElementById('dish-list');
+        ul.innerHTML = ''; // 先清空列表
+
+        dishes.forEach(dish => {
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.textContent = dish.name;
+          a.href = `dish.html?cat=${encodeURIComponent(category)}&dish=${encodeURIComponent(dish.path)}`;
+          li.appendChild(a);
+          ul.appendChild(li);
+        });
+      })
+      .catch(error => {
+        console.error('Error loading dishes:', error);
+        const ul = document.getElementById('dish-list');
+        ul.innerHTML = '<li>Failed to load dishes data.</li>';
+      });
+  </script>
+</body>
+
+</html>
+
+
+<style>
+  body {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    background-color: #f9f9fb;
+    margin: 0;
+    padding: 40px;
+    color: #333;
+  }
+
+  h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 30px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    color: #2c3e50;
+    font-size: 18px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  a:hover {
+    background-color: #f0f0f5;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+</style>

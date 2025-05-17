@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Dish Detail</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    #images img {
+      max-width: 300px;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="dish-name">Loading...</h1>
+  <div id="content">Loading recipe...</div>
+  <div id="images"></div>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const category = params.get('cat');
+    const dishPath = params.get('dish');
+    console.log('URL params:', { category, dishPath });
+
+    if (!category || !dishPath) {
+      console.log('Invalid category or dishPath');
+      document.getElementById('content').textContent = "Invalid dish or category.";
+    } else {
+      // 设置标题
+      const dishName = dishPath.replace(/\/$/, '').split('/').pop().replace(/_/g, ' ').replace('.md', '');
+      console.log('Derived dishName:', dishName);
+      document.getElementById('dish-name').textContent = dishName;
+
+      // basePath是category后面带斜杠
+      const basePath = `${category}/`;
+      console.log('Base path:', basePath);
+
+      if (dishPath.endsWith('.md')) {
+        console.log('Loading single markdown file:', basePath + dishPath);
+
+        fetch(basePath + dishPath)
+          .then(res => {
+            console.log('Fetch response status:', res.status);
+            return res.ok ? res.text() : Promise.reject();
+          })
+          .then(md => {
+            console.log('Markdown content loaded (length):', md.length);
+
+            // 替换 markdown 中相对图片路径
+            const prefix = basePath + dishPath.substring(0, dishPath.lastIndexOf('/') + 1);
+            const fixedMd = md.replace(/!\[(.*?)\]\((?!https?:\/\/)(.*?)\)/g, (match, alt, src) => {
+              // 避免重复添加前缀
+              if (src.startsWith(prefix)) return match;
+              return `![${alt}](${prefix}${src})`;
+            });
+
+            document.getElementById('content').innerHTML = marked.parse(fixedMd);
+          })
+          .catch(() => {
+            console.error('Failed to load recipe.');
+            document.getElementById('content').textContent = "Failed to load recipe.";
+          });
+      } else {
+        console.log('Loading folder structure markdown file:', basePath + dishPath + '/' + dishName + '.md');
+
+        fetch(basePath + dishPath + '/' + dishName + '.md')
+          .then(res => {
+            console.log('Fetch response status:', res.status);
+            return res.ok ? res.text() : Promise.reject();
+          })
+          .then(md => {
+            console.log('Markdown content loaded (length):', md.length);
+
+            // 正确设置图片路径前缀（确保末尾有 /）
+            const prefix = `${basePath}${dishPath}/`;
+
+            // 替换 markdown 里的图片路径
+            const fixedMd = md.replace(/!\[(.*?)\]\((?!https?:\/\/)(.*?)\)/g, (match, alt, src) => {
+              // 如果是绝对路径就不改
+              if (src.startsWith(prefix)) return match;
+              return `![${alt}](${prefix}${src})`;
+            });
+
+            // 渲染 markdown（带图片路径修复）
+            document.getElementById('content').innerHTML = marked.parse(fixedMd);
+
+            // 手动图片区域（可选）
+            // const images = ['egg1.png', 'egg2.png'];
+            // console.log('Loading images:', images.map(imgName => `${prefix}${imgName}`));
+            // const imgDiv = document.getElementById('images');
+            // imgDiv.innerHTML = '';
+            // images.forEach(imgName => {
+            //   const img = document.createElement('img');
+            //   img.src = `${prefix}${imgName}`;
+            //   img.alt = imgName;
+            //   imgDiv.appendChild(img);
+            // });
+          })
+          .catch(() => {
+            console.error('Failed to load recipe.');
+            document.getElementById('content').textContent = "Failed to load recipe.";
+          });
+      }
+    }
+  </script>
+
+</body>
+
+</html>
+
+
+<style>
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background-color: #f9f9fb;
+  color: #333;
+  margin: 0;
+  padding: 40px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+#content {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  font-size: 17px;
+}
+
+#content h2, #content h3 {
+  color: #34495e;
+  margin-top: 1.5em;
+}
+
+#content p {
+  margin: 1em 0;
+}
+
+#content code {
+  background-color: #f0f0f5;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 95%;
+}
+
+#content pre {
+  background-color: #f0f0f5;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+#content ul, #content ol {
+  padding-left: 2em;
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#images img {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+#images img:hover {
+  transform: scale(1.05);
+}
+
+
+</style>

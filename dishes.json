@@ -1,0 +1,1594 @@
+{
+  "aquatic": [
+    {
+      "name": "咖喱炒蟹",
+      "path": "咖喱炒蟹.md",
+      "isFolder": false
+    },
+    {
+      "name": "小龙虾",
+      "path": "小龙虾",
+      "isFolder": true
+    },
+    {
+      "name": "干煎阿根廷红虾",
+      "path": "干煎阿根廷红虾",
+      "isFolder": true
+    },
+    {
+      "name": "微波葱姜黑鳕鱼",
+      "path": "微波葱姜黑鳕鱼.md",
+      "isFolder": false
+    },
+    {
+      "name": "水煮鱼",
+      "path": "水煮鱼.md",
+      "isFolder": false
+    },
+    {
+      "name": "油焖大虾",
+      "path": "油焖大虾",
+      "isFolder": true
+    },
+    {
+      "name": "混合烤鱼",
+      "path": "混合烤鱼",
+      "isFolder": true
+    },
+    {
+      "name": "清蒸生蚝",
+      "path": "清蒸生蚝.md",
+      "isFolder": false
+    },
+    {
+      "name": "清蒸鲈鱼",
+      "path": "清蒸鲈鱼",
+      "isFolder": true
+    },
+    {
+      "name": "白灼虾",
+      "path": "白灼虾",
+      "isFolder": true
+    },
+    {
+      "name": "糖醋鲤鱼",
+      "path": "糖醋鲤鱼",
+      "isFolder": true
+    },
+    {
+      "name": "红烧鱼",
+      "path": "红烧鱼.md",
+      "isFolder": false
+    },
+    {
+      "name": "红烧鱼头",
+      "path": "红烧鱼头.md",
+      "isFolder": false
+    },
+    {
+      "name": "红烧鲤鱼",
+      "path": "红烧鲤鱼.md",
+      "isFolder": false
+    },
+    {
+      "name": "芥末黄油罗氏虾",
+      "path": "芥末黄油罗氏虾",
+      "isFolder": true
+    },
+    {
+      "name": "葱油桂鱼",
+      "path": "葱油桂鱼",
+      "isFolder": true
+    },
+    {
+      "name": "葱烧海参",
+      "path": "葱烧海参",
+      "isFolder": true
+    },
+    {
+      "name": "蒜蓉虾",
+      "path": "蒜蓉虾",
+      "isFolder": true
+    },
+    {
+      "name": "蒜香黄油虾",
+      "path": "蒜香黄油虾",
+      "isFolder": true
+    },
+    {
+      "name": "蛏抱蛋",
+      "path": "蛏抱蛋",
+      "isFolder": true
+    },
+    {
+      "name": "香煎翘嘴鱼",
+      "path": "香煎翘嘴鱼",
+      "isFolder": true
+    },
+    {
+      "name": "鲤鱼炖白菜",
+      "path": "鲤鱼炖白菜",
+      "isFolder": true
+    },
+    {
+      "name": "鳊鱼炖豆腐",
+      "path": "鳊鱼炖豆腐",
+      "isFolder": true
+    },
+    {
+      "name": "黄油煎虾",
+      "path": "黄油煎虾",
+      "isFolder": true
+    }
+  ],
+  "breakfast": [
+    {
+      "name": "吐司果酱",
+      "path": "吐司果酱.md",
+      "isFolder": false
+    },
+    {
+      "name": "太阳蛋",
+      "path": "太阳蛋.md",
+      "isFolder": false
+    },
+    {
+      "name": "完美水煮蛋",
+      "path": "完美水煮蛋.md",
+      "isFolder": false
+    },
+    {
+      "name": "微波炉荷包蛋",
+      "path": "微波炉荷包蛋.md",
+      "isFolder": false
+    },
+    {
+      "name": "微波炉蛋糕",
+      "path": "微波炉蛋糕.md",
+      "isFolder": false
+    },
+    {
+      "name": "手抓饼",
+      "path": "手抓饼.md",
+      "isFolder": false
+    },
+    {
+      "name": "桂圆红枣粥",
+      "path": "桂圆红枣粥.md",
+      "isFolder": false
+    },
+    {
+      "name": "水煮玉米",
+      "path": "水煮玉米.md",
+      "isFolder": false
+    },
+    {
+      "name": "温泉蛋",
+      "path": "温泉蛋",
+      "isFolder": true
+    },
+    {
+      "name": "溏心蛋",
+      "path": "溏心蛋.md",
+      "isFolder": false
+    },
+    {
+      "name": "煎饺",
+      "path": "煎饺.md",
+      "isFolder": false
+    },
+    {
+      "name": "燕麦鸡蛋饼",
+      "path": "燕麦鸡蛋饼.md",
+      "isFolder": false
+    },
+    {
+      "name": "牛奶燕麦",
+      "path": "牛奶燕麦.md",
+      "isFolder": false
+    },
+    {
+      "name": "空气炸锅面包片",
+      "path": "空气炸锅面包片.md",
+      "isFolder": false
+    },
+    {
+      "name": "美式炒蛋",
+      "path": "美式炒蛋.md",
+      "isFolder": false
+    },
+    {
+      "name": "苏格兰蛋",
+      "path": "苏格兰蛋",
+      "isFolder": true
+    },
+    {
+      "name": "茶叶蛋",
+      "path": "茶叶蛋.md",
+      "isFolder": false
+    },
+    {
+      "name": "蒸水蛋",
+      "path": "蒸水蛋.md",
+      "isFolder": false
+    },
+    {
+      "name": "蒸花卷",
+      "path": "蒸花卷.md",
+      "isFolder": false
+    },
+    {
+      "name": "蛋煎糍粑",
+      "path": "蛋煎糍粑.md",
+      "isFolder": false
+    },
+    {
+      "name": "金枪鱼酱三明治",
+      "path": "金枪鱼酱三明治.md",
+      "isFolder": false
+    },
+    {
+      "name": "鸡蛋三明治",
+      "path": "鸡蛋三明治.md",
+      "isFolder": false
+    }
+  ],
+  "condiment": [
+    {
+      "name": "油泼辣子",
+      "path": "油泼辣子",
+      "isFolder": true
+    },
+    {
+      "name": "油酥",
+      "path": "油酥.md",
+      "isFolder": false
+    },
+    {
+      "name": "炸串酱料",
+      "path": "炸串酱料.md",
+      "isFolder": false
+    },
+    {
+      "name": "简易版炒糖色",
+      "path": "简易版炒糖色.md",
+      "isFolder": false
+    },
+    {
+      "name": "糖醋汁",
+      "path": "糖醋汁.md",
+      "isFolder": false
+    },
+    {
+      "name": "草莓酱",
+      "path": "草莓酱",
+      "isFolder": true
+    },
+    {
+      "name": "葱油",
+      "path": "葱油.md",
+      "isFolder": false
+    },
+    {
+      "name": "蒜香酱油",
+      "path": "蒜香酱油.md",
+      "isFolder": false
+    },
+    {
+      "name": "蔗糖糖浆",
+      "path": "蔗糖糖浆",
+      "isFolder": true
+    }
+  ],
+  "dessert": [
+    {
+      "name": "反沙芋头",
+      "path": "反沙芋头",
+      "isFolder": true
+    },
+    {
+      "name": "咖啡椰奶冻",
+      "path": "咖啡椰奶冻",
+      "isFolder": true
+    },
+    {
+      "name": "奥利奥冰淇淋",
+      "path": "奥利奥冰淇淋",
+      "isFolder": true
+    },
+    {
+      "name": "戚风蛋糕",
+      "path": "戚风蛋糕",
+      "isFolder": true
+    },
+    {
+      "name": "提拉米苏",
+      "path": "提拉米苏",
+      "isFolder": true
+    },
+    {
+      "name": "炸鲜奶",
+      "path": "炸鲜奶",
+      "isFolder": true
+    },
+    {
+      "name": "烤蛋挞",
+      "path": "烤蛋挞",
+      "isFolder": true
+    },
+    {
+      "name": "玛格丽特饼干",
+      "path": "玛格丽特饼干",
+      "isFolder": true
+    },
+    {
+      "name": "红柚蛋糕",
+      "path": "红柚蛋糕",
+      "isFolder": true
+    },
+    {
+      "name": "芋泥雪媚娘",
+      "path": "芋泥雪媚娘",
+      "isFolder": true
+    },
+    {
+      "name": "英式司康",
+      "path": "英式司康",
+      "isFolder": true
+    },
+    {
+      "name": "草莓冰淇淋",
+      "path": "草莓冰淇淋",
+      "isFolder": true
+    },
+    {
+      "name": "酸奶意式奶冻",
+      "path": "酸奶意式奶冻",
+      "isFolder": true
+    },
+    {
+      "name": "雪花酥",
+      "path": "雪花酥",
+      "isFolder": true
+    },
+    {
+      "name": "魔芋蛋糕",
+      "path": "魔芋蛋糕",
+      "isFolder": true
+    },
+    {
+      "name": "龟苓膏",
+      "path": "龟苓膏",
+      "isFolder": true
+    }
+  ],
+  "drink": [
+    {
+      "name": "B52轰炸机",
+      "path": "B52轰炸机.md",
+      "isFolder": false
+    },
+    {
+      "name": "Mojito莫吉托",
+      "path": "Mojito莫吉托.md",
+      "isFolder": false
+    },
+    {
+      "name": "冬瓜茶",
+      "path": "冬瓜茶.md",
+      "isFolder": false
+    },
+    {
+      "name": "冰粉",
+      "path": "冰粉",
+      "isFolder": true
+    },
+    {
+      "name": "可乐桶",
+      "path": "可乐桶.md",
+      "isFolder": false
+    },
+    {
+      "name": "奇异果菠菜特调",
+      "path": "奇异果菠菜特调",
+      "isFolder": true
+    },
+    {
+      "name": "奶茶",
+      "path": "奶茶.md",
+      "isFolder": false
+    },
+    {
+      "name": "杨枝甘露",
+      "path": "杨枝甘露.md",
+      "isFolder": false
+    },
+    {
+      "name": "柠檬水",
+      "path": "柠檬水",
+      "isFolder": true
+    },
+    {
+      "name": "泰国手标红茶",
+      "path": "泰国手标红茶",
+      "isFolder": true
+    },
+    {
+      "name": "海边落日",
+      "path": "海边落日",
+      "isFolder": true
+    },
+    {
+      "name": "百香果橙子特调",
+      "path": "百香果橙子特调",
+      "isFolder": true
+    },
+    {
+      "name": "砂糖椰子冰沙",
+      "path": "砂糖椰子冰沙",
+      "isFolder": true
+    },
+    {
+      "name": "耙耙柑茶",
+      "path": "耙耙柑茶",
+      "isFolder": true
+    },
+    {
+      "name": "菠萝咖啡特调",
+      "path": "菠萝咖啡特调",
+      "isFolder": true
+    },
+    {
+      "name": "酸梅汤",
+      "path": "酸梅汤",
+      "isFolder": true
+    },
+    {
+      "name": "酸梅汤（半成品加工）",
+      "path": "酸梅汤（半成品加工）.md",
+      "isFolder": false
+    },
+    {
+      "name": "金汤力",
+      "path": "金汤力",
+      "isFolder": true
+    },
+    {
+      "name": "金菲士",
+      "path": "金菲士",
+      "isFolder": true
+    },
+    {
+      "name": "长岛冰茶",
+      "path": "长岛冰茶.md",
+      "isFolder": false
+    }
+  ],
+  "meat_dish": [
+    {
+      "name": "乡村啤酒鸭",
+      "path": "乡村啤酒鸭.md",
+      "isFolder": false
+    },
+    {
+      "name": "农家一碗香",
+      "path": "农家一碗香",
+      "isFolder": true
+    },
+    {
+      "name": "冬瓜酿肉",
+      "path": "冬瓜酿肉",
+      "isFolder": true
+    },
+    {
+      "name": "冷吃兔",
+      "path": "冷吃兔.md",
+      "isFolder": false
+    },
+    {
+      "name": "凉拌鸡丝",
+      "path": "凉拌鸡丝",
+      "isFolder": true
+    },
+    {
+      "name": "卤菜",
+      "path": "卤菜",
+      "isFolder": true
+    },
+    {
+      "name": "口水鸡",
+      "path": "口水鸡",
+      "isFolder": true
+    },
+    {
+      "name": "可乐鸡翅",
+      "path": "可乐鸡翅.md",
+      "isFolder": false
+    },
+    {
+      "name": "台式卤肉饭",
+      "path": "台式卤肉饭",
+      "isFolder": true
+    },
+    {
+      "name": "咕噜肉",
+      "path": "咕噜肉.md",
+      "isFolder": false
+    },
+    {
+      "name": "咖喱肥牛",
+      "path": "咖喱肥牛",
+      "isFolder": true
+    },
+    {
+      "name": "商芝肉",
+      "path": "商芝肉.md",
+      "isFolder": false
+    },
+    {
+      "name": "啤酒鸭",
+      "path": "啤酒鸭",
+      "isFolder": true
+    },
+    {
+      "name": "回锅肉",
+      "path": "回锅肉",
+      "isFolder": true
+    },
+    {
+      "name": "土豆炖排骨",
+      "path": "土豆炖排骨",
+      "isFolder": true
+    },
+    {
+      "name": "奶酪培根通心粉",
+      "path": "奶酪培根通心粉",
+      "isFolder": true
+    },
+    {
+      "name": "姜炒鸡",
+      "path": "姜炒鸡",
+      "isFolder": true
+    },
+    {
+      "name": "姜葱捞鸡",
+      "path": "姜葱捞鸡",
+      "isFolder": true
+    },
+    {
+      "name": "孜然牛肉",
+      "path": "孜然牛肉.md",
+      "isFolder": false
+    },
+    {
+      "name": "宫保鸡丁",
+      "path": "宫保鸡丁",
+      "isFolder": true
+    },
+    {
+      "name": "小炒肉",
+      "path": "小炒肉.md",
+      "isFolder": false
+    },
+    {
+      "name": "小炒鸡肝",
+      "path": "小炒鸡肝",
+      "isFolder": true
+    },
+    {
+      "name": "小炒黄牛肉",
+      "path": "小炒黄牛肉",
+      "isFolder": true
+    },
+    {
+      "name": "小米辣炒肉",
+      "path": "小米辣炒肉.md",
+      "isFolder": false
+    },
+    {
+      "name": "小酥肉",
+      "path": "小酥肉.md",
+      "isFolder": false
+    },
+    {
+      "name": "尖叫牛蛙",
+      "path": "尖叫牛蛙",
+      "isFolder": true
+    },
+    {
+      "name": "尖椒炒牛肉",
+      "path": "尖椒炒牛肉.md",
+      "isFolder": false
+    },
+    {
+      "name": "山西过油肉",
+      "path": "山西过油肉.md",
+      "isFolder": false
+    },
+    {
+      "name": "巴基斯坦牛肉咖喱",
+      "path": "巴基斯坦牛肉咖喱",
+      "isFolder": true
+    },
+    {
+      "name": "带把肘子",
+      "path": "带把肘子.md",
+      "isFolder": false
+    },
+    {
+      "name": "干煸仔鸡",
+      "path": "干煸仔鸡",
+      "isFolder": true
+    },
+    {
+      "name": "广式萝卜牛腩",
+      "path": "广式萝卜牛腩",
+      "isFolder": true
+    },
+    {
+      "name": "徽派红烧肉",
+      "path": "徽派红烧肉",
+      "isFolder": true
+    },
+    {
+      "name": "意式烤鸡",
+      "path": "意式烤鸡.md",
+      "isFolder": false
+    },
+    {
+      "name": "新疆大盘鸡",
+      "path": "新疆大盘鸡",
+      "isFolder": true
+    },
+    {
+      "name": "无骨鸡爪",
+      "path": "无骨鸡爪",
+      "isFolder": true
+    },
+    {
+      "name": "杀猪菜",
+      "path": "杀猪菜.md",
+      "isFolder": false
+    },
+    {
+      "name": "枝竹羊腩煲",
+      "path": "枝竹羊腩煲",
+      "isFolder": true
+    },
+    {
+      "name": "柱候牛腩",
+      "path": "柱候牛腩",
+      "isFolder": true
+    },
+    {
+      "name": "梅菜扣肉",
+      "path": "梅菜扣肉",
+      "isFolder": true
+    },
+    {
+      "name": "椒盐排条",
+      "path": "椒盐排条.md",
+      "isFolder": false
+    },
+    {
+      "name": "水煮牛肉",
+      "path": "水煮牛肉",
+      "isFolder": true
+    },
+    {
+      "name": "水煮肉片",
+      "path": "水煮肉片.md",
+      "isFolder": false
+    },
+    {
+      "name": "洋葱炒猪肉",
+      "path": "洋葱炒猪肉.md",
+      "isFolder": false
+    },
+    {
+      "name": "清蒸鳜鱼",
+      "path": "清蒸鳜鱼",
+      "isFolder": true
+    },
+    {
+      "name": "湖南家常红烧肉",
+      "path": "湖南家常红烧肉",
+      "isFolder": true
+    },
+    {
+      "name": "湘祁米夫鸭",
+      "path": "湘祁米夫鸭",
+      "isFolder": true
+    },
+    {
+      "name": "烤鸡翅",
+      "path": "烤鸡翅.md",
+      "isFolder": false
+    },
+    {
+      "name": "牛排",
+      "path": "牛排",
+      "isFolder": true
+    },
+    {
+      "name": "猪皮冻",
+      "path": "猪皮冻",
+      "isFolder": true
+    },
+    {
+      "name": "猪肉烩酸菜",
+      "path": "猪肉烩酸菜.md",
+      "isFolder": false
+    },
+    {
+      "name": "甜辣烤全翅",
+      "path": "甜辣烤全翅.md",
+      "isFolder": false
+    },
+    {
+      "name": "番茄红酱",
+      "path": "番茄红酱.md",
+      "isFolder": false
+    },
+    {
+      "name": "瘦肉土豆片",
+      "path": "瘦肉土豆片",
+      "isFolder": true
+    },
+    {
+      "name": "白菜猪肉炖粉条",
+      "path": "白菜猪肉炖粉条.md",
+      "isFolder": false
+    },
+    {
+      "name": "粉蒸肉",
+      "path": "粉蒸肉.md",
+      "isFolder": false
+    },
+    {
+      "name": "糖醋排骨",
+      "path": "糖醋排骨",
+      "isFolder": true
+    },
+    {
+      "name": "糖醋里脊",
+      "path": "糖醋里脊.md",
+      "isFolder": false
+    },
+    {
+      "name": "红烧猪蹄",
+      "path": "红烧猪蹄",
+      "isFolder": true
+    },
+    {
+      "name": "红烧肉",
+      "path": "红烧肉",
+      "isFolder": true
+    },
+    {
+      "name": "羊排焖面",
+      "path": "羊排焖面",
+      "isFolder": true
+    },
+    {
+      "name": "老妈蹄花",
+      "path": "老妈蹄花",
+      "isFolder": true
+    },
+    {
+      "name": "老式锅包肉",
+      "path": "老式锅包肉",
+      "isFolder": true
+    },
+    {
+      "name": "肉饼炖蛋",
+      "path": "肉饼炖蛋.md",
+      "isFolder": false
+    },
+    {
+      "name": "芥末罗氏虾",
+      "path": "芥末罗氏虾",
+      "isFolder": true
+    },
+    {
+      "name": "荔枝肉",
+      "path": "荔枝肉",
+      "isFolder": true
+    },
+    {
+      "name": "荷兰豆炒腊肠",
+      "path": "荷兰豆炒腊肠",
+      "isFolder": true
+    },
+    {
+      "name": "萝卜炖羊排",
+      "path": "萝卜炖羊排.md",
+      "isFolder": false
+    },
+    {
+      "name": "蒜苔炒肉末",
+      "path": "蒜苔炒肉末.md",
+      "isFolder": false
+    },
+    {
+      "name": "虎皮肘子",
+      "path": "虎皮肘子.md",
+      "isFolder": false
+    },
+    {
+      "name": "蚂蚁上树",
+      "path": "蚂蚁上树.md",
+      "isFolder": false
+    },
+    {
+      "name": "血浆鸭",
+      "path": "血浆鸭",
+      "isFolder": true
+    },
+    {
+      "name": "西红柿土豆炖牛肉",
+      "path": "西红柿土豆炖牛肉",
+      "isFolder": true
+    },
+    {
+      "name": "西红柿牛腩",
+      "path": "西红柿牛腩",
+      "isFolder": true
+    },
+    {
+      "name": "豆豉鲮鱼油麦菜",
+      "path": "豆豉鲮鱼油麦菜",
+      "isFolder": true
+    },
+    {
+      "name": "贵州辣子鸡",
+      "path": "贵州辣子鸡",
+      "isFolder": true
+    },
+    {
+      "name": "辣椒炒肉",
+      "path": "辣椒炒肉.md",
+      "isFolder": false
+    },
+    {
+      "name": "酱排骨",
+      "path": "酱排骨",
+      "isFolder": true
+    },
+    {
+      "name": "酱牛肉",
+      "path": "酱牛肉",
+      "isFolder": true
+    },
+    {
+      "name": "醉排骨",
+      "path": "醉排骨",
+      "isFolder": true
+    },
+    {
+      "name": "青椒土豆炒肉",
+      "path": "青椒土豆炒肉",
+      "isFolder": true
+    },
+    {
+      "name": "香干肉丝",
+      "path": "香干肉丝.md",
+      "isFolder": false
+    },
+    {
+      "name": "香干芹菜炒肉",
+      "path": "香干芹菜炒肉",
+      "isFolder": true
+    },
+    {
+      "name": "香煎五花肉",
+      "path": "香煎五花肉",
+      "isFolder": true
+    },
+    {
+      "name": "香菇滑鸡",
+      "path": "香菇滑鸡",
+      "isFolder": true
+    },
+    {
+      "name": "香辣鸡爪煲",
+      "path": "香辣鸡爪煲",
+      "isFolder": true
+    },
+    {
+      "name": "鱼香肉丝",
+      "path": "鱼香肉丝.md",
+      "isFolder": false
+    },
+    {
+      "name": "鱼香茄子",
+      "path": "鱼香茄子",
+      "isFolder": true
+    },
+    {
+      "name": "麻婆豆腐",
+      "path": "麻婆豆腐",
+      "isFolder": true
+    },
+    {
+      "name": "麻辣香锅",
+      "path": "麻辣香锅.md",
+      "isFolder": false
+    },
+    {
+      "name": "黄焖鸡",
+      "path": "黄焖鸡.md",
+      "isFolder": false
+    },
+    {
+      "name": "黄瓜炒肉",
+      "path": "黄瓜炒肉.md",
+      "isFolder": false
+    },
+    {
+      "name": "黑椒牛柳",
+      "path": "黑椒牛柳",
+      "isFolder": true
+    },
+    {
+      "name": "黔式腊肠娃娃菜",
+      "path": "黔式腊肠娃娃菜",
+      "isFolder": true
+    }
+  ],
+  "semi-finished": [
+    {
+      "name": "凉皮",
+      "path": "凉皮.md",
+      "isFolder": false
+    },
+    {
+      "name": "半成品意面",
+      "path": "半成品意面.md",
+      "isFolder": false
+    },
+    {
+      "name": "懒人蛋挞",
+      "path": "懒人蛋挞",
+      "isFolder": true
+    },
+    {
+      "name": "炸薯条",
+      "path": "炸薯条",
+      "isFolder": true
+    },
+    {
+      "name": "牛油火锅底料",
+      "path": "牛油火锅底料.md",
+      "isFolder": false
+    },
+    {
+      "name": "空气炸锅羊排",
+      "path": "空气炸锅羊排",
+      "isFolder": true
+    },
+    {
+      "name": "空气炸锅鸡翅中",
+      "path": "空气炸锅鸡翅中",
+      "isFolder": true
+    },
+    {
+      "name": "速冻水饺",
+      "path": "速冻水饺.md",
+      "isFolder": false
+    },
+    {
+      "name": "速冻汤圆",
+      "path": "速冻汤圆",
+      "isFolder": true
+    },
+    {
+      "name": "速冻馄饨",
+      "path": "速冻馄饨.md",
+      "isFolder": false
+    }
+  ],
+  "soup": [
+    {
+      "name": "勾芡香菇汤",
+      "path": "勾芡香菇汤",
+      "isFolder": true
+    },
+    {
+      "name": "奶油蘑菇汤",
+      "path": "奶油蘑菇汤.md",
+      "isFolder": false
+    },
+    {
+      "name": "小米粥",
+      "path": "小米粥.md",
+      "isFolder": false
+    },
+    {
+      "name": "排骨苦瓜汤",
+      "path": "排骨苦瓜汤",
+      "isFolder": true
+    },
+    {
+      "name": "昂刺鱼豆腐汤",
+      "path": "昂刺鱼豆腐汤",
+      "isFolder": true
+    },
+    {
+      "name": "朱雀汤",
+      "path": "朱雀汤",
+      "isFolder": true
+    },
+    {
+      "name": "玉米排骨汤",
+      "path": "玉米排骨汤",
+      "isFolder": true
+    },
+    {
+      "name": "生汆丸子汤",
+      "path": "生汆丸子汤.md",
+      "isFolder": false
+    },
+    {
+      "name": "番茄牛肉蛋花汤",
+      "path": "番茄牛肉蛋花汤.md",
+      "isFolder": false
+    },
+    {
+      "name": "皮蛋瘦肉粥",
+      "path": "皮蛋瘦肉粥.md",
+      "isFolder": false
+    },
+    {
+      "name": "米粥",
+      "path": "米粥.md",
+      "isFolder": false
+    },
+    {
+      "name": "紫菜蛋花汤",
+      "path": "紫菜蛋花汤.md",
+      "isFolder": false
+    },
+    {
+      "name": "罗宋汤",
+      "path": "罗宋汤.md",
+      "isFolder": false
+    },
+    {
+      "name": "羊肉汤",
+      "path": "羊肉汤",
+      "isFolder": true
+    },
+    {
+      "name": "腊八粥",
+      "path": "腊八粥.md",
+      "isFolder": false
+    },
+    {
+      "name": "菌菇炖乳鸽",
+      "path": "菌菇炖乳鸽",
+      "isFolder": true
+    },
+    {
+      "name": "西红柿鸡蛋汤",
+      "path": "西红柿鸡蛋汤.md",
+      "isFolder": false
+    },
+    {
+      "name": "金针菇汤",
+      "path": "金针菇汤.md",
+      "isFolder": false
+    },
+    {
+      "name": "银耳莲子粥",
+      "path": "银耳莲子粥",
+      "isFolder": true
+    },
+    {
+      "name": "陈皮排骨汤",
+      "path": "陈皮排骨汤",
+      "isFolder": true
+    },
+    {
+      "name": "陈皮排骨汤",
+      "path": "陈皮排骨汤.md",
+      "isFolder": false
+    }
+  ],
+  "staple": [
+    {
+      "name": "中式馅饼",
+      "path": "中式馅饼",
+      "isFolder": true
+    },
+    {
+      "name": "凉粉",
+      "path": "凉粉",
+      "isFolder": true
+    },
+    {
+      "name": "基础牛奶面包",
+      "path": "基础牛奶面包",
+      "isFolder": true
+    },
+    {
+      "name": "微波炉腊肠煲仔饭",
+      "path": "微波炉腊肠煲仔饭",
+      "isFolder": true
+    },
+    {
+      "name": "意式肉酱面",
+      "path": "意式肉酱面",
+      "isFolder": true
+    },
+    {
+      "name": "手工水饺",
+      "path": "手工水饺.md",
+      "isFolder": false
+    },
+    {
+      "name": "扬州炒饭",
+      "path": "扬州炒饭",
+      "isFolder": true
+    },
+    {
+      "name": "披萨饼皮",
+      "path": "披萨饼皮",
+      "isFolder": true
+    },
+    {
+      "name": "日式咖喱饭",
+      "path": "日式咖喱饭",
+      "isFolder": true
+    },
+    {
+      "name": "日式肥牛丼饭",
+      "path": "日式肥牛丼饭",
+      "isFolder": true
+    },
+    {
+      "name": "汤面",
+      "path": "汤面.md",
+      "isFolder": false
+    },
+    {
+      "name": "河南蒸面条",
+      "path": "河南蒸面条",
+      "isFolder": true
+    },
+    {
+      "name": "火腿饭团",
+      "path": "火腿饭团",
+      "isFolder": true
+    },
+    {
+      "name": "炒凉粉",
+      "path": "炒凉粉",
+      "isFolder": true
+    },
+    {
+      "name": "炒年糕",
+      "path": "炒年糕.md",
+      "isFolder": false
+    },
+    {
+      "name": "炒意大利面",
+      "path": "炒意大利面",
+      "isFolder": true
+    },
+    {
+      "name": "炒方便面",
+      "path": "炒方便面.md",
+      "isFolder": false
+    },
+    {
+      "name": "炒河粉",
+      "path": "炒河粉.md",
+      "isFolder": false
+    },
+    {
+      "name": "炒馍",
+      "path": "炒馍.md",
+      "isFolder": false
+    },
+    {
+      "name": "炸酱面",
+      "path": "炸酱面.md",
+      "isFolder": false
+    },
+    {
+      "name": "烙饼",
+      "path": "烙饼",
+      "isFolder": true
+    },
+    {
+      "name": "烧饼",
+      "path": "烧饼",
+      "isFolder": true
+    },
+    {
+      "name": "热干面",
+      "path": "热干面.md",
+      "isFolder": false
+    },
+    {
+      "name": "煮泡面加蛋",
+      "path": "煮泡面加蛋.md",
+      "isFolder": false
+    },
+    {
+      "name": "空气炸锅照烧鸡饭",
+      "path": "空气炸锅照烧鸡饭",
+      "isFolder": true
+    },
+    {
+      "name": "米饭",
+      "path": "米饭",
+      "isFolder": true
+    },
+    {
+      "name": "老友猪肉粉",
+      "path": "老友猪肉粉",
+      "isFolder": true
+    },
+    {
+      "name": "老干妈拌面",
+      "path": "老干妈拌面.md",
+      "isFolder": false
+    },
+    {
+      "name": "肉蛋盖饭",
+      "path": "肉蛋盖饭.md",
+      "isFolder": false
+    },
+    {
+      "name": "茄子肉煎饼",
+      "path": "茄子肉煎饼",
+      "isFolder": true
+    },
+    {
+      "name": "葱油拌面",
+      "path": "葱油拌面.md",
+      "isFolder": false
+    },
+    {
+      "name": "蒸卤面",
+      "path": "蒸卤面.md",
+      "isFolder": false
+    },
+    {
+      "name": "蛋包饭",
+      "path": "蛋包饭.md",
+      "isFolder": false
+    },
+    {
+      "name": "蛋炒饭",
+      "path": "蛋炒饭.md",
+      "isFolder": false
+    },
+    {
+      "name": "螺蛳粉",
+      "path": "螺蛳粉.md",
+      "isFolder": false
+    },
+    {
+      "name": "西红柿鸡蛋挂面",
+      "path": "西红柿鸡蛋挂面",
+      "isFolder": true
+    },
+    {
+      "name": "豆角焖面",
+      "path": "豆角焖面",
+      "isFolder": true
+    },
+    {
+      "name": "酱拌荞麦面",
+      "path": "酱拌荞麦面",
+      "isFolder": true
+    },
+    {
+      "name": "酸辣蕨根粉",
+      "path": "酸辣蕨根粉.md",
+      "isFolder": false
+    },
+    {
+      "name": "醪糟小汤圆",
+      "path": "醪糟小汤圆.md",
+      "isFolder": false
+    },
+    {
+      "name": "韩式拌饭",
+      "path": "韩式拌饭",
+      "isFolder": true
+    },
+    {
+      "name": "韭菜盒子",
+      "path": "韭菜盒子.md",
+      "isFolder": false
+    },
+    {
+      "name": "鲣鱼海苔玉米饭",
+      "path": "鲣鱼海苔玉米饭",
+      "isFolder": true
+    },
+    {
+      "name": "麻油拌面",
+      "path": "麻油拌面.md",
+      "isFolder": false
+    },
+    {
+      "name": "麻辣减脂荞麦面",
+      "path": "麻辣减脂荞麦面.md",
+      "isFolder": false
+    }
+  ],
+  "template": [
+    {
+      "name": "示例菜",
+      "path": "示例菜",
+      "isFolder": true
+    }
+  ],
+  "vegetable_dish": [
+    {
+      "name": "上汤娃娃菜",
+      "path": "上汤娃娃菜",
+      "isFolder": true
+    },
+    {
+      "name": "凉拌木耳",
+      "path": "凉拌木耳",
+      "isFolder": true
+    },
+    {
+      "name": "凉拌油麦菜",
+      "path": "凉拌油麦菜.md",
+      "isFolder": false
+    },
+    {
+      "name": "凉拌莴笋",
+      "path": "凉拌莴笋",
+      "isFolder": true
+    },
+    {
+      "name": "凉拌豆腐",
+      "path": "凉拌豆腐.md",
+      "isFolder": false
+    },
+    {
+      "name": "凉拌金针菇",
+      "path": "凉拌金针菇.md",
+      "isFolder": false
+    },
+    {
+      "name": "凉拌黄瓜",
+      "path": "凉拌黄瓜.md",
+      "isFolder": false
+    },
+    {
+      "name": "包菜炒鸡蛋粉丝",
+      "path": "包菜炒鸡蛋粉丝",
+      "isFolder": true
+    },
+    {
+      "name": "地三鲜",
+      "path": "地三鲜.md",
+      "isFolder": false
+    },
+    {
+      "name": "小炒藕丁",
+      "path": "小炒藕丁",
+      "isFolder": true
+    },
+    {
+      "name": "干锅花菜",
+      "path": "干锅花菜",
+      "isFolder": true
+    },
+    {
+      "name": "手撕包菜",
+      "path": "手撕包菜",
+      "isFolder": true
+    },
+    {
+      "name": "拔丝土豆",
+      "path": "拔丝土豆",
+      "isFolder": true
+    },
+    {
+      "name": "松仁玉米",
+      "path": "松仁玉米.md",
+      "isFolder": false
+    },
+    {
+      "name": "椒盐玉米",
+      "path": "椒盐玉米",
+      "isFolder": true
+    },
+    {
+      "name": "榄菜肉末四季豆",
+      "path": "榄菜肉末四季豆",
+      "isFolder": true
+    },
+    {
+      "name": "水油焖蔬菜",
+      "path": "水油焖蔬菜.md",
+      "isFolder": false
+    },
+    {
+      "name": "洋葱炒鸡蛋",
+      "path": "洋葱炒鸡蛋",
+      "isFolder": true
+    },
+    {
+      "name": "清炒花菜",
+      "path": "清炒花菜.md",
+      "isFolder": false
+    },
+    {
+      "name": "清蒸南瓜",
+      "path": "清蒸南瓜.md",
+      "isFolder": false
+    },
+    {
+      "name": "炒滑蛋",
+      "path": "炒滑蛋",
+      "isFolder": true
+    },
+    {
+      "name": "炒茄子",
+      "path": "炒茄子.md",
+      "isFolder": false
+    },
+    {
+      "name": "炒青菜",
+      "path": "炒青菜.md",
+      "isFolder": false
+    },
+    {
+      "name": "烤茄子",
+      "path": "烤茄子",
+      "isFolder": true
+    },
+    {
+      "name": "白灼菜心",
+      "path": "白灼菜心",
+      "isFolder": true
+    },
+    {
+      "name": "糖拌西红柿",
+      "path": "糖拌西红柿",
+      "isFolder": true
+    },
+    {
+      "name": "素炒豆角",
+      "path": "素炒豆角.md",
+      "isFolder": false
+    },
+    {
+      "name": "红烧冬瓜",
+      "path": "红烧冬瓜",
+      "isFolder": true
+    },
+    {
+      "name": "红烧茄子",
+      "path": "红烧茄子.md",
+      "isFolder": false
+    },
+    {
+      "name": "脆皮豆腐",
+      "path": "脆皮豆腐.md",
+      "isFolder": false
+    },
+    {
+      "name": "芹菜拌茶树菇",
+      "path": "芹菜拌茶树菇",
+      "isFolder": true
+    },
+    {
+      "name": "茄子炖土豆",
+      "path": "茄子炖土豆.md",
+      "isFolder": false
+    },
+    {
+      "name": "茭白炒肉",
+      "path": "茭白炒肉",
+      "isFolder": true
+    },
+    {
+      "name": "莴笋叶煎饼",
+      "path": "莴笋叶煎饼",
+      "isFolder": true
+    },
+    {
+      "name": "菠菜炒鸡蛋",
+      "path": "菠菜炒鸡蛋",
+      "isFolder": true
+    },
+    {
+      "name": "葱煎豆腐",
+      "path": "葱煎豆腐.md",
+      "isFolder": false
+    },
+    {
+      "name": "蒜蓉空心菜",
+      "path": "蒜蓉空心菜",
+      "isFolder": true
+    },
+    {
+      "name": "蒜蓉西兰花",
+      "path": "蒜蓉西兰花.md",
+      "isFolder": false
+    },
+    {
+      "name": "蒲烧茄子",
+      "path": "蒲烧茄子.md",
+      "isFolder": false
+    },
+    {
+      "name": "虎皮青椒",
+      "path": "虎皮青椒",
+      "isFolder": true
+    },
+    {
+      "name": "蚝油三鲜菇",
+      "path": "蚝油三鲜菇",
+      "isFolder": true
+    },
+    {
+      "name": "蚝油生菜",
+      "path": "蚝油生菜.md",
+      "isFolder": false
+    },
+    {
+      "name": "西红柿炒鸡蛋",
+      "path": "西红柿炒鸡蛋.md",
+      "isFolder": false
+    },
+    {
+      "name": "西红柿豆腐汤羹",
+      "path": "西红柿豆腐汤羹",
+      "isFolder": true
+    },
+    {
+      "name": "西葫芦炒鸡蛋",
+      "path": "西葫芦炒鸡蛋",
+      "isFolder": true
+    },
+    {
+      "name": "话梅煮毛豆",
+      "path": "话梅煮毛豆",
+      "isFolder": true
+    },
+    {
+      "name": "酸辣土豆丝",
+      "path": "酸辣土豆丝.md",
+      "isFolder": false
+    },
+    {
+      "name": "金针菇日本豆腐煲",
+      "path": "金针菇日本豆腐煲.md",
+      "isFolder": false
+    },
+    {
+      "name": "陕北熬豆角",
+      "path": "陕北熬豆角.md",
+      "isFolder": false
+    },
+    {
+      "name": "雷椒皮蛋",
+      "path": "雷椒皮蛋.md",
+      "isFolder": false
+    },
+    {
+      "name": "鸡蛋火腿炒黄瓜",
+      "path": "鸡蛋火腿炒黄瓜.md",
+      "isFolder": false
+    },
+    {
+      "name": "鸡蛋羹",
+      "path": "鸡蛋羹",
+      "isFolder": true
+    }
+  ]
+}
